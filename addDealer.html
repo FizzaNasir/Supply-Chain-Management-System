@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="addrecord.css">
+    <link rel="stylesheet" href="Clientside.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add dealer</title>
+</head>
+<body>
+    <ul> 
+        <li ><img src="logo-final.png" alt=""></a><hr></li>
+        
+       <div class="row" id="r1"><a href="#">View Dealer Record</a></div> <!--first child element--> 
+        <div class="row" id="r2"><a href="addDealer.html">Add dealer</a></div>
+        <div class="row" id="r3"><a href="#">Logout</a></div>
+    </ul>
+    <h1>Add new dealer</h1>
+    <div class="cont">
+        <div id="form">
+        <form action="AddDealers" method="POST">
+       Dealer name: <input class="inp " type="text" name="dname"></input>
+       Dealer id:<input class="inp " type="text" name="did"></input>
+       Password:<input class="inp " type="email" name="pass"></input>
+       Email:<input class="inp " type="email" name="email"></input>
+       District: <input class="inp " type="text" name="dist"></input>
+        <input class="inp " id="btn" type="submit" value="Add"><br><br><br>
+       </form>
+        </div>        
+    </div>
+</body>
+</html>

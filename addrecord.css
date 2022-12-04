@@ -1,0 +1,45 @@
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-top: 50px;
+    
+}
+.cont
+{
+    border: 2px solid black;
+    width: 325px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 234, 234);
+        margin: auto;
+        margin-top: -538px;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-right: 319px;
+    
+}
+.inp{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 103px;
+    border-radius: 20px;
+    background-color: rgb(148, 139, 139);
+    border: 2px solid black;
+}
+#btn
+{
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+}
+#btn:hover{
+    background-color: rgb(235, 87, 87);
+}
+h1{
+    color: white;
+}

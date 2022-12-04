@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="addrecord.css">
+    <link rel="stylesheet" href="Clientside.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <style>
+        #r2{
+            background-color: whitesmoke;
+        }
+        #r2 a{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul> 
+        <li ><img src="logo-final.png" alt=""></a><hr></li>
+        
+       <div class="row" id="r1"><a href="ViewCompanyProducts">View Company Products</a></div> <!--first child element--> 
+        <div class="row" id="r2"><a href="Order.html">Place order to company</a></div>
+        <div class="row" id="r3"><a href="#">Logout</a></div>
+    </ul>
+    <div class="cont">
+        <div id="form">
+        <form action="Storeorder" method="POST">
+        Product_ID<input class="inp " type="text" name="prodid"></input><br><br><br>
+        No. of items<input class="inp " type="number" name="items"></input>
+        <input class="inp " id="btn" type="submit" value="Place Order">
+        </form>
+        </div>        
+    </div>
+</body>
+</html>

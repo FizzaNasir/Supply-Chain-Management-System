@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<script>
+       function FormValidation()
+	   {
+		if(document.Login.uname.value=="")
+		{   
+			document.Login.uname.focus();
+			var error=document.getElementById("u-error");
+			error.innerHTML="<span style='color:red;'>"+"Please fill this field"; 
+		}
+		if(document.Login.pass.value=="")
+		{   
+			document.Login.pass.focus();
+			var error=document.getElementById("p-error");
+			error.innerHTML="<span style='color:red;'>"+"Please fill this field"; 
+		}
+	   }
+	</script>
+</head>
+
+<body>
+    <div>
+        <h1>Login</h1><br><br>
+        <form name="login" action="Validateform" method="Get">
+        Username: <input required type="text" name="uid"><span id="u-error"></span><br><br>
+        Password: <input required type="password" name="pass"><span id="p-error"></span><br><br>
+        <input type=submit value="Login" id="btn" onsubmit="FormValidation()">
+        </form>
+    </div>
+
+</body>
+</html>

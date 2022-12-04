@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>form-validate</servlet-name>
+        <servlet-class>Validateform</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>add-record</servlet-name>
+        <servlet-class>Addrecord</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>view-record</servlet-name>
+        <servlet-class>ViewRecord</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>vcp</servlet-name>
+        <servlet-class>ViewCompanyProducts</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>so</servlet-name>
+        <servlet-class>Storeorder</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>orderdetails</servlet-name>
+        <servlet-class>ShowOrderDetails</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>storeOrderInDin</servlet-name>
+        <servlet-class>AddItemsInDealerInventory</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>adddealers</servlet-name>
+        <servlet-class>AddDealers</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ViewInventory</servlet-name>
+        <servlet-class>ViewInventory</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RemoveItem</servlet-name>
+        <servlet-class>RemoveItem</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CompanySales</servlet-name>
+        <servlet-class>CompanySales</servlet-class>
+    </servlet>
+  
+    <servlet>
+        <servlet-name>ViewDealerRec</servlet-name>
+        <servlet-class>ViewDealerRec</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ShowDPurRec</servlet-name>
+        <servlet-class>ShowDPurRec</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>form-validate</servlet-name>
+        <url-pattern>/Validateform</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>add-record</servlet-name>
+        <url-pattern>/Addrecord</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>view-record</servlet-name>
+        <url-pattern>/ViewRecord</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>vcp</servlet-name>
+        <url-pattern>/ViewCompanyProducts</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>so</servlet-name>
+        <url-pattern>/Storeorder</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>orderdetails</servlet-name>
+        <url-pattern>/ShowOrderDetails</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>storeOrderInDin</servlet-name>
+        <url-pattern>/AddItemsInDealerInventory</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>adddealers</servlet-name>
+        <url-pattern>/AddDealers</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ViewInventory</servlet-name>
+        <url-pattern>/ViewInventory</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>RemoveItem</servlet-name>
+        <url-pattern>/RemoveItem</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ViewDealerRec</servlet-name>
+        <url-pattern>/ViewDealerRec</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CompanySales</servlet-name>
+        <url-pattern>/CompanySales</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ShowDPurRec</servlet-name>
+        <url-pattern>/ShowDPurRec</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>

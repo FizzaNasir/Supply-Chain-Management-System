@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="addrecord.css">
+    <link rel="stylesheet" href="Clientside.css">
+    <!-- <link rel="stylesheet" href="DealerInterface.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add record</title>
+    <style>
+        #r2{
+            background-color: whitesmoke;
+        }
+        #r2 a{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul> 
+        <li ><img src="logo-final.png" alt=""></a><hr></li>
+        
+       <div class="row" id="r1"><a href="ViewRecord">View Client Record</a></div> <!--first child element--> 
+        <div class="row" id="r2"><a href="addrecord.html">Add Client</a></div>
+        <div class="row" id="r3"><a href="#">Logout</a></div><!--second child element--> 
+    </ul>
+<div class="cont">
+    <div id="form">
+        <form action="Addrecord" method="POST">
+        Name<input class="inp " type="text" name="Name"></input>
+        CNIC<input class="inp " type="text" name="cnic"></input> 
+        Product_ID<input class="inp " type="text" name="prodid"></input>
+        No. of items<input class="inp " type="number" name="items"></input>
+        <input class="inp " id="btn" type="submit" value="Add record">
+        </form>
+    </div>
+        
+</div>
+</body>
+</html>
